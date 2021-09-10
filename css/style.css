@@ -16,9 +16,6 @@ body{
     width: 80%;
     margin: auto;
 }
-header{
-    height: 625px;
-}
 .image{
     width: 100%;
 }
@@ -120,18 +117,84 @@ br{
     background-color: black;
     color: white;
 }
-/* .title,
-.text{
-    color: white;
+.site_main{
+    height: 500px;
+    position: relative;
+    top:-9px;
+    left: 0;
 }
-.title{
-    top: 0%;
-    left: 50%;
-    position: absolute;
-    font-size: 50px;
+.container_2{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: auto;
 }
-.text{
-    top: 30%;
+.sx{
     position: absolute;
-    left: 50%;
-} */
+    top: 0;
+    left: 0;
+}
+.main_text{
+    height: 500px;
+    width: 400px;
+}
+.dx{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main_title{
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.main_sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+.container_3{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.main_text_2{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.image_main_2{
+    text-align: center;
+}
+.main_title_2{
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.main_sub-title_2{
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+.position_section_text_4{
+    position: absolute;
+    top: -60px;
+    left: 50px;
+}
+.position_section_image_4{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
