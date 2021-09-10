@@ -9,6 +9,9 @@
     clear: both;
     display: t;
 }
+body{
+    font-family: 'Catamaran', sans-serif;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -97,10 +100,12 @@ li a{
     color: white;
     font-size: 50px;
     margin-bottom: 40px;
+    font-weight: 800;
 }
 .container_1 > .text{
     color: white;
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: 500;
 }
 br{
     padding-bottom: 15px;
