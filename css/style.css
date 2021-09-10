@@ -1,3 +1,4 @@
+/* common rules */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,4 +8,68 @@
     content: "";
     clear: both;
     display: t;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 625px;
+}
+.image{
+    width: 100%;
+}
+.site_nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color:transparent ;
+    width: 100%;
+
+}
+.logo_discord{
+    vertical-align: middle;
+}
+.logo {
+    line-height: 70px;
+    display: inline-block;
+    float: left;
+
+}
+.menu{
+    position: relative;
+    top: 0;
+    left: 160px;
+    line-height: 70px;
+    float: left;
+    padding: 0 1.2rem;
+    display: inline-block;
+}
+.list_none li{
+    vertical-align: middle;
+    list-style-type: none;
+    display: inline-block;
+}
+li a{
+    padding: 0px 22px;
+    text-decoration: none;
+    color: white;
+}
+.login{
+    line-height:70px;
+    float: right;
+    display: inline-block;
+}
+.btn_login{
+    vertical-align: middle;
+}
+.btn{
+    padding: 10px 6px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+
+
 }
