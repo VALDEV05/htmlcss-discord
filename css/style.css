@@ -56,6 +56,11 @@ li a{
     text-decoration: none;
     color: white;
 }
+ .list_none a:hover{
+    cursor: default;
+    text-decoration: underline;
+    text-decoration: cornflowerblue;
+} 
 .login{
     line-height:70px;
     float: right;
@@ -70,6 +75,58 @@ li a{
     color: black;
     border: none;
     border-radius: 20px;
-
-
 }
+.btn:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.main_header{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.container_1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.container_1 > .title{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.container_1 > .text{
+    color: white;
+    font-size: 20px;
+}
+br{
+    padding-bottom: 15px;
+}
+.btn_header{
+    margin: 40px 10px;
+    padding: 20px 30px;
+    border-radius: 30px;  
+    font-size: 20px;
+}
+.btn_opening{
+    background-color: black;
+    color: white;
+}
+/* .title,
+.text{
+    color: white;
+}
+.title{
+    top: 0%;
+    left: 50%;
+    position: absolute;
+    font-size: 50px;
+}
+.text{
+    top: 30%;
+    position: absolute;
+    left: 50%;
+} */
