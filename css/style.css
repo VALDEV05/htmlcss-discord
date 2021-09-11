@@ -126,7 +126,7 @@ br{
 .container_2{
     position: relative;
     height: 100%;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 .sx{
@@ -151,11 +151,18 @@ br{
     font-weight: 800;
     font-size: 40px;
 }
-.main_sub-title{
+.text_1{
     font-weight: 500;
     font-size: 18px;
     position: absolute;
     top: 240px;
+    left: 0px;
+}
+.main_sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    top: 120px;
     left: 0px;
 }
 .container_3{
@@ -177,7 +184,7 @@ br{
     margin: auto;
     position: absolute;
     top: 50px;
-    left: 0px;
+    left: 15%;
     font-weight: 800;
     font-size: 40px;
 }
@@ -195,6 +202,23 @@ br{
 }
 .position_section_image_4{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 70px;
+    left: 250px;
 }
+.section_ending{
+    position: absolute;
+    top: 650px;
+    left: 35%;
+}
+.btn_ending{
+    background-color: #8EA1E1;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.question{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;}
