@@ -190,11 +190,12 @@ li a{
 .btn_ending{
     background-color: #8EA1E1;
     margin: 0;
+    color: #ffffff;
 }
-.debug .title{
+/* .debug .title{
     height: 200px;
     margin-bottom: 10px;
-}
+} */
 .debug .description{
     height: 100px;
     margin-bottom: 10px;
@@ -227,6 +228,7 @@ li a{
     height: 100%;
     float: left;
     width: 70%;
+    font-size: 20px;
 }
 .col_footer_100{
     height: 20%;
@@ -272,6 +274,7 @@ li a{
     color: #ffffff; 
 }
 .col_footer_100{
+    margin-top: 50px;
     border-top: 2px solid #8EA1E1;
 }
 .btn_footer{
