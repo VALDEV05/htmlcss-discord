@@ -7,7 +7,7 @@
 .clearfix::after{
     content: "";
     clear: both;
-    display: t;
+    display: table;
 }
 body{
     font-family: 'Catamaran', sans-serif;
@@ -44,7 +44,6 @@ body{
     line-height: 70px;
     float: left;
     padding: 0 1.2rem;
-    display: inline-block;
 }
 .list_none li{
     vertical-align: middle;
@@ -61,14 +60,6 @@ li a{
     text-decoration: underline;
     text-decoration: cornflowerblue;
 } 
-.login{
-    line-height:70px;
-    float: right;
-    display: inline-block;
-}
-.btn_login{
-    vertical-align: middle;
-}
 .btn{
     padding: 10px 6px;
     background-color: white;
@@ -81,13 +72,19 @@ li a{
     color: cornflowerblue;
     text-decoration: underline;
 }
+.login{
+    line-height:70px;
+    float: right;
+}
+.btn_login{
+    vertical-align: middle;
+}
 .main_header{
     width: 100%;
     position: absolute;
     top: 20%;
     left: 0;
 }
-
 .container_1{
     margin: auto;
     width: 50%;
@@ -104,9 +101,6 @@ li a{
     font-size: 19px;
     font-weight: 500;
 }
-br{
-    padding-bottom: 15px;
-}
 .btn_header{
     margin: 40px 10px;
     padding: 20px 30px;
@@ -118,111 +112,172 @@ br{
     color: white;
 }
 .site_main{
+    position: relative;
+    top: -10px;
+}
+.col_70{
+    width: 70%;
+    float: left;
+
+}
+.col_30{
+    width: 30%;
+    float: left;
+
+}
+.debug .col_70, 
+.debug .col_30{
     height: 500px;
-    position: relative;
-    top:-9px;
-    left: 0;
+    margin-bottom: 10px;
 }
-.container_2{
-    position: relative;
-    height: 100%;
-    width: 60%;
+.content_image{
+    margin: 40px 20px;
+}
+.image_main > img{
+    width: 80%;
+    object-fit: cover;
+}
+.content_text > div{
     margin: auto;
+    width: 90%;
 }
-.sx{
-    position: absolute;
-    top: 0;
-    left: 0;
+.col_70 img{
+    
 }
-.main_text{
-    height: 500px;
-    width: 400px;
+.title h1{
+    margin-top: 40px;
+    font-size: 
+    40px;
 }
-.dx{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.main_title{
-    margin: auto;
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    font-weight: 800;
-    font-size: 40px;
-}
-.text_1{
-    font-weight: 500;
+.description p{
     font-size: 18px;
-    position: absolute;
-    top: 240px;
-    left: 0px;
 }
-.main_sub-title{
-    font-weight: 500;
-    font-size: 18px;
-    position: absolute;
-    top: 120px;
-    left: 0px;
+.content{
+    height: 700px;
 }
-.container_3{
+.title_section_4{
     position: relative;
-    height: 100%;
     width: 80%;
     margin: auto;
 }
-.main_text_2{
-    height: 500px;
+.title_section_4 h1{
+    text-align: center;
+}
+.title_section_4 p{
+    text-align: center;
+}
+.image_section_4{
+    width: 85%;
+    margin: auto;
+}
+.img_4{
     width: 100%;
     text-align: center;
+}
+.debug .footer_section_4{
+    height: 100px;
+}
+.footer_section_4{
+    width: 50%;
     margin: auto;
 }
-.image_main_2{
+.footer_section_4 h1{
     text-align: center;
 }
-.main_title_2{
-    margin: auto;
-    position: absolute;
-    top: 50px;
-    left: 15%;
-    font-weight: 800;
-    font-size: 40px;
-}
-.main_sub-title_2{
-    font-weight: 500;
-    font-size: 18px;
-    position: absolute;
-    top: 120px;
-    left: 0px;
-}
-.position_section_text_4{
-    position: absolute;
-    top: -60px;
-    left: 50px;
-}
-.position_section_image_4{
-    position: absolute;
-    top: 70px;
-    left: 250px;
-}
-.section_ending{
-    position: absolute;
-    top: 650px;
-    left: 35%;
+.footer_section_4 div{
+    text-align: center;
 }
 .btn_ending{
     background-color: #8EA1E1;
-    color: white;
-    margin-top: 20px;
-    padding: 20px 30px;
-    border-radius: 30px;
-    font-size: 20px;
+    margin: 0;
 }
-.question{
-    font-weight: 800;
-    font-size: 20px;
-    margin-top: 20px;}
-    .question{
-    font-weight: 800;
-    font-size: 20px;
-    margin-top: 20px;}
+.debug .title{
+    height: 200px;
+    margin-bottom: 10px;
+}
+.debug .description{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.debug .site_footer{
+    background-color: #23272A;
+    height: 700px;
+    position: relative;
+    top: 200px;
+}
+.debug .content_footer{
+    margin: auto;
+    height: 500px;
+    
+}
+.content_footer{
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    width: 80%;
+}
+.col_footer_30{
+    color: #ffffff;
+    height: 100%;
+    float: left;
+    width: 30%;
+}
+.col_footer_70{
+    height: 100%;
+    float: left;
+    width: 70%;
+}
+.col_footer_100{
+    height: 20%;
+    float: left;
+    width: 100%;
+}
+.title_footer h1{
+    font-size: 35px;
+}
+.image_ita{
+    width: 50px;
+}
+.language p{
+    display: inline;
+    font-size: 15px;
+}
+.language{
+    line-height: 100%;
+    vertical-align: bottom;
+}
+.language span{
+    font-size: 40px;
+}
+#icon{
+    padding-top: 0 10px;
+}
+.col_footer_small{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.list_none_footer{
+    list-style: none;
+    padding-left: 10px;
+}
+.list_none_footer li{
+    padding: 8px 0rem;
+}
+.list_none_footer .li_heading{
+    color: #8EA1E1;
+}
+.list_none_footer .li_item{
+    color: #ffffff; 
+}
+.col_footer_100{
+    border-top: 2px solid #8EA1E1;
+}
+.btn_footer{
+    color: white;
+}
+.container_footer{
+    margin-left: 15px;
+    margin-right: 15px;
+}
