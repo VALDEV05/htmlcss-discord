@@ -13,6 +13,24 @@ body{
     font-family: 'Catamaran', sans-serif;
 }
 /**************
+*    utility  *
+***************/
+.list_none li{
+    list-style: none;
+    display: inline;
+}
+.btn a{
+    background-color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/**************
+*   /utility  *
+***************/
+/**************
 * debug rules *
 ***************/
 .debug .site_header{
@@ -28,7 +46,9 @@ body{
 .debug .menu_navbar,
 .btn_log_navbar{
     height: 100px;
-
+}
+.debug .content_hero_image{
+    height: 500px;
 }
 /**************
 * /debug rules *
@@ -46,7 +66,9 @@ body{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 700px;
+    margin: auto;
 }
+/* nav_bar */
 .site_header .navbar{
     width: 100%;
     position: absolute;
@@ -100,26 +122,47 @@ body{
 .navbar .btn_log_navbar{
     padding-right: 20px;
 }
+/* hero_image */
+.content_hero_image{
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    transform: translateX(50%);
+    text-align: center;
+}
+.hero_image .text_hero_image{
+    color: white;
+}
+.hero_image .text_hero_image h1{
+    padding: 30px 0 50px 0;
+
+    font-size: 75px;
+}
+.hero_image .text_hero_image p{
+    font-size: 29px;
+    padding-bottom: 50px;
+}
+.content_hero_image .button .btn_download_mac,
+.content_hero_image .button .btn_open_browser{
+    display: inline-block;
+    padding: 0 20px;
+}
+.content_hero_image .button .btn_download_mac a,
+.content_hero_image .button .btn_open_browser a{
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+.content_hero_image .button .btn_open_browser a{
+    background-color: #23272A;
+    color: white;
+}
+.content_hero_image .button .btn_download_mac a:hover,
+.content_hero_image .button .btn_open_browser a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 /**************
 *    /header  *
 ***************/
 
-
-/**************
-*    utility  *
-***************/
-.list_none li{
-    list-style: none;
-    display: inline;
-}
-.btn a{
-    background-color: white;
-    padding: 7px 15px;
-    text-decoration: none;
-    color: black;
-    border-radius: 20px;
-    font-size: 20px;
-}
-/**************
-*   /utility  *
-***************/
