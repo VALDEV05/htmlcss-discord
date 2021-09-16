@@ -27,6 +27,9 @@ body{
     border-radius: 20px;
     font-size: 20px;
 }
+.last{
+    padding-bottom: 300px;
+}
 /**************
 *   /utility  *
 ***************/
@@ -50,6 +53,9 @@ body{
 .debug .content_hero_image{
     height: 500px;
 }
+.debug .site_main{
+    height: 10000px;
+} 
 /**************
 * /debug rules *
 ***************/
@@ -166,3 +172,99 @@ body{
 *    /header  *
 ***************/
 
+/**************
+*    main  *
+***************/
+.site_main{
+    width: 100%;
+
+}
+.site_main .content_site_main{
+    height: 100%;
+    width: 75%;
+    margin: auto;
+
+}
+.content_site_main .col_70,
+.content_site_main .col_30{
+    padding-top: 200px;
+    float: left;
+    text-align: center;
+}
+.content_site_main .col_70{
+    width: 65%;
+/*     background-color: wheat; */
+}
+.content_site_main .col_30{
+    width: 35%;
+ /*    background-color: cadetblue; */
+    padding-top: 140px;
+    text-align: left;
+}
+
+.content_site_main .col_70 img{
+    transform: scale(1.5);
+}
+.content_site_main .col_30 .text_main{
+    width: 70%;
+}
+.content_site_main .col_30 .text_main h1{
+    line-height: 120%;
+    font-size: 56px;
+}
+.content_site_main .col_30 .text_main p{
+    padding-top: 35px;
+    font-size: 26px;
+    line-height: 170%;
+}
+.content_site_main .row_2 .col_30,
+.content_site_main .row_2 .col_70{
+    min-height: 700px;
+}
+.content_site_main .row_2 .col_30,
+.content_site_main .row_2 .col_70{
+    padding-top: 0;
+    min-height: 700px;
+}
+.content_site_main .row_3 .col_30,
+.content_site_main .row_3 .col_70{
+    padding-top: 0;
+    min-height: 700px;
+}
+.content_site_main .row_4 .row_text{
+    width: 100%;
+    text-align: center;
+}
+.content_site_main .row_4 .row_text h1{
+    font-size: 56px;
+}
+.content_site_main .row_4 .row_text p{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.content_site_main .row_4 .row_text img{
+    transform: scale(1.5);
+}
+.content_site_main .row_4 .row_text h2{
+    padding-top: 200px;
+    padding-bottom: 80px;
+    font-size: 45px;
+
+}
+.content_site_main .row_4 .row_text .btn_row_4{
+    margin-bottom: 100px;
+}
+.btn_row_4 a{
+    padding: 15px 35px;
+    color: white;
+    border-radius: 35px;
+    background-color: #8EA1E1;
+    font-size: 28px;
+}
+.btn_row_4 a:hover{
+    background-color: #5573d6;
+    text-decoration: underline;
+}
+/**************
+*    /main  *
+***************/
