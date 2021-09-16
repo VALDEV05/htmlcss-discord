@@ -12,275 +12,114 @@
 body{
     font-family: 'Catamaran', sans-serif;
 }
-.container{
+/**************
+* debug rules *
+***************/
+.debug .site_header{
+    height: 700px;
+}
+.debug .navbar{
+    height: 100px;
+}
+.debug .content_navbar{
+    height: 100px;
+}
+.debug .logo_navbar,
+.debug .menu_navbar,
+.btn_log_navbar{
+    height: 100px;
+
+}
+/**************
+* /debug rules *
+***************/
+/**************
+*    header   *
+***************/
+.site_header{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.hero_image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 700px;
+}
+.site_header .navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.navbar .content_navbar{
     width: 80%;
     margin: auto;
 }
-.image{
-    width: 100%;
+.content_navbar .logo_navbar,
+.content_navbar .btn_log_navbar,
+.content_navbar .menu_navbar{
+    float: left;
 }
-.site_nav{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 70px;
-    background-color:transparent ;
-    width: 100%;
-
+.content_navbar .logo_navbar,
+.content_navbar .btn_log_navbar{
+    width: 20%;
 }
-.logo_discord{
+.content_navbar .logo_navbar img {
+    width: 200px;
+    padding-top: 27px;
+}
+.content_navbar .menu_navbar{
+    width: 60%;
+    text-align: center;
+}
+.content_navbar .btn_log_navbar{
+    text-align: right;
+}
+.content_navbar div{
+    line-height: 100px;
     vertical-align: middle;
 }
-.logo {
-    line-height: 70px;
-    display: inline-block;
-    float: left;
-
+.navbar .logo_navbar a:hover{
+    border-bottom: 1px solid white;
 }
-.menu{
-    position: relative;
-    top: 0;
-    left: 160px;
-    line-height: 70px;
-    float: left;
-    padding: 0 1.2rem;
+.navbar .menu_navbar a:hover,
+.navbar .btn_log_navbar li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
-.list_none li{
-    vertical-align: middle;
-    list-style-type: none;
-    display: inline-block;
-}
-li a{
-    padding: 0px 22px;
+.navbar .list_none li a{
     text-decoration: none;
     color: white;
+    padding: 0 20px;
+    font-size: 25px;
 }
- .list_none a:hover{
-    cursor: default;
-    text-decoration: underline;
-    text-decoration: cornflowerblue;
-} 
-.btn{
-    padding: 10px 6px;
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 20px;
+.navbar .logo_navbar img{
+    padding-left: 20px;
 }
-.btn:hover{
-    cursor: pointer;
-    color: cornflowerblue;
-    text-decoration: underline;
+.navbar .btn_log_navbar{
+    padding-right: 20px;
 }
-.login{
-    line-height:70px;
-    float: right;
-}
-.btn_login{
-    vertical-align: middle;
-}
-.main_header{
-    width: 100%;
-    position: absolute;
-    top: 20%;
-    left: 0;
-}
-.container_1{
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-.container_1 > .title{
-    color: white;
-    font-size: 50px;
-    margin-bottom: 40px;
-    font-weight: 800;
-}
-.container_1 > .text{
-    color: white;
-    font-size: 19px;
-    font-weight: 500;
-}
-.btn_header{
-    margin: 40px 10px;
-    padding: 20px 30px;
-    border-radius: 30px;  
-    font-size: 20px;
-}
-.btn_opening{
-    background-color: black;
-    color: white;
-}
-.site_main{
-    position: relative;
-    top: -10px;
-}
-.col_70{
-    width: 70%;
-    float: left;
+/**************
+*    /header  *
+***************/
 
-}
-.col_30{
-    width: 30%;
-    float: left;
 
-}
-.debug .col_70, 
-.debug .col_30{
-    height: 500px;
-    margin-bottom: 10px;
-}
-.content_image{
-    margin: 40px 20px;
-}
-.image_main > img{
-    width: 80%;
-    object-fit: cover;
-}
-.content_text > div{
-    margin: auto;
-    width: 90%;
-}
-.col_70 img{
-    
-}
-.title h1{
-    margin-top: 40px;
-    font-size: 
-    40px;
-}
-.description p{
-    font-size: 18px;
-}
-.content{
-    height: 700px;
-}
-.title_section_4{
-    position: relative;
-    width: 80%;
-    margin: auto;
-}
-.title_section_4 h1{
-    text-align: center;
-}
-.title_section_4 p{
-    text-align: center;
-}
-.image_section_4{
-    width: 85%;
-    margin: auto;
-}
-.img_4{
-    width: 100%;
-    text-align: center;
-}
-.debug .footer_section_4{
-    height: 100px;
-}
-.footer_section_4{
-    width: 50%;
-    margin: auto;
-}
-.footer_section_4 h1{
-    text-align: center;
-}
-.footer_section_4 div{
-    text-align: center;
-}
-.btn_ending{
-    background-color: #8EA1E1;
-    margin: 0;
-    color: #ffffff;
-}
-/* .debug .title{
-    height: 200px;
-    margin-bottom: 10px;
-} */
-.debug .description{
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-.debug .site_footer{
-    background-color: #23272A;
-    height: 700px;
-    position: relative;
-    top: 200px;
-}
-.debug .content_footer{
-    margin: auto;
-    height: 500px;
-    
-}
-.content_footer{
-    position: absolute;
-    top: 30px;
-    left: 10%;
-    width: 80%;
-}
-.col_footer_30{
-    color: #ffffff;
-    height: 100%;
-    float: left;
-    width: 30%;
-}
-.col_footer_70{
-    height: 100%;
-    float: left;
-    width: 70%;
-    font-size: 20px;
-}
-.col_footer_100{
-    height: 20%;
-    float: left;
-    width: 100%;
-}
-.title_footer h1{
-    font-size: 35px;
-}
-.image_ita{
-    width: 50px;
-}
-.language p{
-    display: inline;
-    font-size: 15px;
-}
-.language{
-    line-height: 100%;
-    vertical-align: bottom;
-}
-.language span{
-    font-size: 40px;
-}
-#icon{
-    padding-top: 0 10px;
-}
-.col_footer_small{
-    width: 25%;
-    height: 100%;
-    float: left;
-}
-.list_none_footer{
+/**************
+*    utility  *
+***************/
+.list_none li{
     list-style: none;
-    padding-left: 10px;
+    display: inline;
 }
-.list_none_footer li{
-    padding: 8px 0rem;
+.btn a{
+    background-color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
 }
-.list_none_footer .li_heading{
-    color: #8EA1E1;
-}
-.list_none_footer .li_item{
-    color: #ffffff; 
-}
-.col_footer_100{
-    margin-top: 50px;
-    border-top: 2px solid #8EA1E1;
-}
-.btn_footer{
-    color: white;
-}
-.container_footer{
-    margin-left: 15px;
-    margin-right: 15px;
-}
+/**************
+*   /utility  *
+***************/
